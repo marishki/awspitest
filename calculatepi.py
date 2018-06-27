@@ -1,4 +1,6 @@
-GlowScript 2.7 VPython
+#GlowScript 2.7 VPython
+#!/Users/marishkasmac/anaconda3/bin/python
+from math import sqrt
 
 #This is a comment
 #starting value of x
