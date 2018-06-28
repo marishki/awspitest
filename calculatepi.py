@@ -1,13 +1,17 @@
 #GlowScript 2.7 VPython
 #!/Users/marishkasmac/anaconda3/bin/python
 from math import sqrt
+import math 
+import sys
+
 
 #This is a comment
 #starting value of x
 x=-1
 
 #step size  CHANGE THIS
-dx=0.1
+#dx=0.1
+dx=float(sys.argv[1])
 
 #the sum of all the areas - start at 0
 A=0
@@ -24,4 +28,5 @@ while x<1:
 #end the loop
 #pi is twice the area
 tpi=2*A
-print("Approximation of pi = ",tpi)
+print("Approx PI Value = ",tpi)
+print("Actual PI Value = ", math.pi)
